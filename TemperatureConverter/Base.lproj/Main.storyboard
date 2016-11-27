@@ -38,6 +38,10 @@
                                     <constraint firstAttribute="width" constant="375" id="XNQ-Cy-1Ot"/>
                                     <constraint firstAttribute="height" constant="216" id="fWt-PW-lax"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="Fta-B2-fW7" id="Nu6-Wf-GBK"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="a2p-aX-61H"/>
+                                </connections>
                             </pickerView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -52,8 +56,14 @@
                             <constraint firstAttribute="trailingMargin" secondItem="sPq-Ox-FEk" secondAttribute="trailing" constant="97" id="vMV-a5-CMe"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tempLabel" destination="sPq-Ox-FEk" id="TkC-yM-gLO"/>
+                        <outlet property="tempPicker" destination="XAU-WB-o6e" id="oOi-xS-CVd"/>
+                        <outlet property="tempRange" destination="Fta-B2-fW7" id="G86-4V-PiM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <customObject id="Fta-B2-fW7" customClass="TemperatureRange" customModule="TemperatureConverter" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
