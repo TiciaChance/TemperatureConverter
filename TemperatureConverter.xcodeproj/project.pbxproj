@@ -12,6 +12,8 @@
 		110CF9841DEA10A300508A21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110CF9821DEA10A300508A21 /* Main.storyboard */; };
 		110CF9861DEA10A300508A21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110CF9851DEA10A300508A21 /* Assets.xcassets */; };
 		110CF9891DEA10A300508A21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110CF9871DEA10A300508A21 /* LaunchScreen.storyboard */; };
+		110CF9911DEA14DA00508A21 /* TemperatureRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110CF9901DEA14DA00508A21 /* TemperatureRange.swift */; };
+		11FDBD4E1DEA9F00002DCFCB /* UnitConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FDBD4D1DEA9F00002DCFCB /* UnitConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		110CF9851DEA10A300508A21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		110CF9881DEA10A300508A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		110CF98A1DEA10A300508A21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110CF9901DEA14DA00508A21 /* TemperatureRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureRange.swift; sourceTree = "<group>"; };
+		11FDBD4D1DEA9F00002DCFCB /* UnitConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				110CF97E1DEA10A300508A21 /* AppDelegate.swift */,
 				110CF9801DEA10A300508A21 /* ViewController.swift */,
 				110CF9821DEA10A300508A21 /* Main.storyboard */,
+				110CF9901DEA14DA00508A21 /* TemperatureRange.swift */,
+				11FDBD4D1DEA9F00002DCFCB /* UnitConverter.swift */,
 				110CF9851DEA10A300508A21 /* Assets.xcassets */,
 				110CF9871DEA10A300508A21 /* LaunchScreen.storyboard */,
 				110CF98A1DEA10A300508A21 /* Info.plist */,
@@ -138,6 +144,8 @@
 			files = (
 				110CF9811DEA10A300508A21 /* ViewController.swift in Sources */,
 				110CF97F1DEA10A300508A21 /* AppDelegate.swift in Sources */,
+				11FDBD4E1DEA9F00002DCFCB /* UnitConverter.swift in Sources */,
+				110CF9911DEA14DA00508A21 /* TemperatureRange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				110CF98F1DEA10A300508A21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
